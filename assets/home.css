@@ -52,7 +52,7 @@
 	font-weight: bold;
 }
 .bg{
-	background-image: url(photos/techsource.jpg);
+	background-image: url(/photos/techsource.jpg);
   
   background-position: center;
   background-repeat: no-repeat;
