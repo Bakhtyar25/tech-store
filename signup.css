@@ -1,0 +1,103 @@
+body {
+    font-size: 16px;
+    font-family: system-ui;
+    /*background:-webkit-radial-gradient(top left, #90F6FB,#2C3283);*/
+}
+
+.form{
+    width: 100%;
+    height: 100%;
+}
+h2 {
+    text-align: center;
+    color: #ef6e58;
+}
+form {
+    width: 100%;
+    padding: 15px 40px 40px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 4% auto;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+label i {
+    color: rgb(255, 255, 255);
+    font-size: 80%;
+}
+input, select {
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: #a9bae64a;
+    color: white;
+}
+.box1{
+    padding-bottom: 10px;
+}
+.form-inline1 {
+    border: 1px solid #ccc;
+    padding: 8px 10px 4px;
+    border-radius: 2px;
+}
+.form-inline1 label, .form-inline1 input {
+    display: inline-block;
+    width: auto;
+    padding-right: 15px;
+}
+.error1 {
+    color: red;
+    font-size: 90%;
+}
+input[type=text]{
+        outline: none;
+}
+
+input[type="submit"] {
+    font-size: 110%;
+    font-weight: 100;
+    background: rgb(224, 170, 6);
+    border-color: rgb(224, 170, 6);
+    box-shadow: 0 3px 0 rgb(223, 152, 0);
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background: rgb(236, 193, 1);
+    border-color: rgba(255,199,0, 1.0);
+}
+
+.input-1{
+    background-image: url(photos/check.png);
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    border:1px solid #01cc40;
+}
+.input-2{
+    background-image: url(photos/cancel.png);
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    border:1px solid red;
+}
+.input-3{
+    border:1px solid #01cc40!important;
+}
+select{
+    outline: none!important;
+}
+.input-4{
+    border:1px solid red;
+}
+a{
+    text-decoration: none;
+}
+option{
+    color: black;
+}
